@@ -163,7 +163,7 @@ class RandevuEkle(object):
         self.saatEkleWindow = self.saat_ekle
     
     def close_saatEkleWindow(self):
-        if self.saatEkleWindow:  # Eğer a.py penceresi açıksa
+        if self.saatEkleWindow: 
             self.saatEkleWindow.close()
 
     def close_sinifEkleWindows(self):
